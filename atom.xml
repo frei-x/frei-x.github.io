@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/javascripth/"/>
-  <updated>2019-04-25T01:36:39.570Z</updated>
+  <updated>2019-04-25T10:14:58.598Z</updated>
   <id>https://github.com/javascripth/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>two</title>
+    <link href="https://github.com/javascripth/2019/04/25/two/"/>
+    <id>https://github.com/javascripth/2019/04/25/two/</id>
+    <published>2019-04-25T10:14:58.000Z</published>
+    <updated>2019-04-25T10:14:58.598Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>first</title>

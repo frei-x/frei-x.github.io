@@ -579,6 +579,15 @@
         // oHeader.style.marginLeft = "15px"
 
     }, 500);
+    // 把进入文章的链接添加到整行上 ,方便点击  (而不是只有a标签这一小块可以点击)
+    let boxPostTitles = document.querySelectorAll('article.article-card.archive-article');
+    // let boxPostTitles = document.querySelectorAll('h3.post-title[itemprop=name]');
+    console.log(boxPostTitles);
+    for (let item of boxPostTitles) {
+        item.addEventListener('click', function (e) {
+            window.location.href = item.querySelector("a.post-title-link").getAttribute('href');
+        }, false);
+    }
 
 
 })(window, document);

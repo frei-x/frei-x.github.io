@@ -36,7 +36,7 @@
         <link rel="alternate" type="application/atom+xml" title="衣沾不足惜" href="/atom.xml">
     
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <link rel="stylesheet" href="/css/style.css?v=1.7.2">
     <script>window.lazyScripts=[]</script>
 
     <!-- custom head -->
@@ -76,7 +76,7 @@
             <li class="waves-block waves-effect">
               <a href="/archives">
                 <i class="icon icon-lg icon-archives"></i>
-                archives
+                归档
               </a>
             </li>
         
@@ -90,7 +90,7 @@
             <li class="waves-block waves-effect">
               <a href="/categories">
                 <i class="icon icon-lg icon-th-list"></i>
-                Categories
+                分类
               </a>
             </li>
         
@@ -103,7 +103,7 @@
         
             <li class="waves-block waves-effect">
               <a href="https://www.zhihu.com/people/javascript.h" target="_blank">
-                <i class="icon icon-lg icon-知乎"></i>
+                <i class="icon icon-lg icon-zhihu"></i>
                 知乎
               </a>
             </li>
@@ -341,7 +341,7 @@
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <h3 class="reward-title">
         <i class="icon icon-quote-left"></i>
-        谢谢大爷~
+        一分钱也是爱~
         <i class="icon icon-quote-right"></i>
     </h3>
     <div class="reward-content">
@@ -387,7 +387,7 @@
         </p>
     </div>
     <div class="bottom">
-        <p><span>衣沾不足惜 &copy; 2015 - 2019</span>
+        <p><span>衣沾不足惜 &copy; 2017 - 2019</span>
             <span>
                 
                 Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a>
@@ -441,7 +441,7 @@
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="//api.qrserver.com/v1/create-qr-code/?data=https://github.com/javascripth/2019/04/23/hello-world/" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACJ0lEQVR42u3aQW7DMAwF0dz/0i7QbWH5D6kUCTVaGUls8CkATYl6veJx/Y67a/oJ/eW2IUOGjK9lXMvxN/S7u9afJ9+up+nhXhkyZBzAyB9Xy3hJUl5fP8QsQ4YMGTGA1m8yZMiQ8b6ES2FJwSdDhgwZawYt5mhKXQdBwTJkyDiN0W8MvO/6X/sbMmTI+EjGBQel1lInjkqGDBmjGUmhRku6PMTOYY4XDU6GDBlfzkiOUyRB1BJ0/nxcw8qQIWMQI19YJsm01qqkLYGH/oYMGTIGMWhwSelGpyNpJzxMhAwZMg5g0AbkrlIPvxnuIpQhQ8YBjE6Rtytp5hP68N6QIUPGOEZnwdnftktWoOCVIEOGjKGM2pI1P51FGcVnypAhYzSj0xPsHMjIF661GGTIkDGJ0WlYdgo7uoUXtTBlyJAxlEETbqdEyxfJdBNQhgwZsxk04dLt+xoeP1OGDBmjGfSARb5lnyTZWjq+LRxlyJAxmtEp4PKCsjY1dFEtQ4aMeYy8aOssQemWHP4fZMiQcQCjtjXfaX9u7r7KkCFjNCNPanRrbNuJjzjpy5AhYyrjgqOTiOlGG5gaGTJkjGbUjmcljczawri2PJYhQ8YJjCTJ0rDyxE3LTXCbDBkyxjE6zUg6EbXxUIzKkCFDRlzYrZNmUgjSu2TIkCEj/82uVkGNKkOGjBMYdMusU/YlyRrfK0OGjNGMTmOgtnDd9YRt/Q0ZMmR8LuMHwBWyUJPsMWUAAAAASUVORK5CYII=" alt="微信分享二维码">
 </div>
 
 
@@ -454,7 +454,7 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
 
 </script>
 
-<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+<script src="/js/main.min.js?v=1.7.2"></script>
 
 
 <div class="search-panel" id="search-panel">
@@ -474,7 +474,7 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
 </li>
 </template>
 
-<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+<script src="/js/search.min.js?v=1.7.2" async></script>
 
 
 
@@ -490,10 +490,10 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
     var OriginTitile = document.title, titleTime;
     document.addEventListener('visibilitychange', function() {
         if (document.hidden) {
-            document.title = '死鬼去哪里了！';
+            document.title = '';
             clearTimeout(titleTime);
         } else {
-            document.title = '(つェ⊂)咦!又好了!';
+            document.title = '';
             titleTime = setTimeout(function() {
                 document.title = OriginTitile;
             },2000);

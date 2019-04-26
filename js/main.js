@@ -578,7 +578,7 @@
         // oHeader.style.width = "100%"
         // oHeader.style.marginLeft = "15px"
 
-    }, 10);
+    }, 500);
 
 
 })(window, document);

@@ -32,7 +32,7 @@
                 y: y
             };
         },
-        rootScollTop = function() {
+        rootScollTop = function () {
             return d.documentElement.scrollTop || d.body.scrollTop;
         };
 
@@ -461,7 +461,7 @@
 
     var ignoreUnload = false;
     var $mailTarget = $('a[href^="mailto"]');
-    if($mailTarget) {
+    if ($mailTarget) {
         $mailTarget.addEventListener(even, function () {
             ignoreUnload = true;
         });
@@ -540,4 +540,45 @@
     } else {
         console.error('Waves loading failed.')
     }
+    var oHeader = document.querySelector("div.container.fade-scale");
+    console.log(oHeader)
+    // oHeader.style.width = "0%";
+    let strHtml = '';
+    let arrComtent = [{
+        text: "为学日益,为道日损",
+        author: "《道德经》"
+    }, {
+        text: "每一个不曾起舞的日子,都是对生命的辜负",
+        author: "尼采"
+    },
+    {
+        text: "君子上交不谄,下交不渎",
+        author: "《周易》"
+    }, {
+        text: "慎终如始,则无败事",
+        author: "《道德经》"
+    }]
+    // oHeader.style.width = "0%"
+    setTimeout(function () {
+        var random = Math.round(Math.random() * (arrComtent.length - 1));
+        console.log(random)
+        var arrText = arrComtent[random].text.split("");
+
+        var nowWordindex = 0;
+        var nowText = '';
+        let timerAddWord = setInterval(function () {
+            if (nowWordindex < arrText.length) {
+                nowText += arrText[nowWordindex];
+                oHeader.innerHTML = `<h2>${nowText}</h2>`;
+                nowWordindex++
+            } else {
+                clearInterval(timerAddWord)
+            }
+        }, 150);
+        // oHeader.style.width = "100%"
+        // oHeader.style.marginLeft = "15px"
+
+    }, 10);
+
+
 })(window, document);

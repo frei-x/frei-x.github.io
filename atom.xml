@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/javascripth/"/>
-  <updated>2019-04-28T01:26:14.211Z</updated>
+  <updated>2019-04-28T05:16:44.863Z</updated>
   <id>https://github.com/javascripth/</id>
   
   <author>
@@ -17,16 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>js [数组]方法 梳理</title>
-    <link href="https://github.com/javascripth/2019/04/27/js%20%5B%E6%95%B0%E7%BB%84%5D%E6%96%B9%E6%B3%95%20%E5%85%A8%E6%94%BB%E7%95%A5/"/>
-    <id>https://github.com/javascripth/2019/04/27/js [数组]方法 全攻略/</id>
+    <title>Array的属性和方法 -js标准库之旅(一)</title>
+    <link href="https://github.com/javascripth/2019/04/27/Array%E7%9A%84%E5%B1%9E%E6%80%A7%E5%92%8C%E6%96%B9%E6%B3%95%20-js%E6%A0%87%E5%87%86%E5%BA%93%E4%B9%8B%E6%97%85(%E4%B8%80)/"/>
+    <id>https://github.com/javascripth/2019/04/27/Array的属性和方法 -js标准库之旅(一)/</id>
     <published>2019-04-27T12:49:42.000Z</published>
-    <updated>2019-04-28T01:26:14.211Z</updated>
+    <updated>2019-04-28T05:16:44.863Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><pre><code>    一门编程语言 ~= 语法 + 标准库 + 开发范式 ~= 数据结构 + 算法      标准库，在js中即为标准的内置对象，这些对象或对象的原型上内置了很多方法和属性，这些写好了的东西，我们也常常称之为“api”。如果掌握标准库中的api，并能灵活运用，可以不再自己手动实现、依赖第三方插件，能为开发节省大量的时间。</code></pre><h2 id="转换为数组-Array-from"><a href="#转换为数组-Array-from" class="headerlink" title="转换为数组 Array.from"></a>转换为数组 Array.from</h2><table><thead><tr><th>一个普通标题</th><th>一个普通标题</th><th>一个普通标题</th></tr></thead><tbody><tr><td>短文本</td><td>中等文本</td><td>稍微长一点的文本</td></tr><tr><td>稍微长一点的文本</td><td>短文本</td><td>中等文本</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
+      
+      
+        &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;    一门编程语言 ~= 语法 + 标准库 + 开发范式 ~= 数据结构 + 算法 
+     标准库，在js中即为标准的
+      
+    
     </summary>
     
+      <category term="JavaScript" scheme="https://github.com/javascripth/categories/JavaScript/"/>
+    
+    
+      <category term="技巧" scheme="https://github.com/javascripth/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+      <category term="手册" scheme="https://github.com/javascripth/tags/%E6%89%8B%E5%86%8C/"/>
+    
+      <category term="数组" scheme="https://github.com/javascripth/tags/%E6%95%B0%E7%BB%84/"/>
+    
+      <category term="标准库" scheme="https://github.com/javascripth/tags/%E6%A0%87%E5%87%86%E5%BA%93/"/>
+    
+      <category term="JS" scheme="https://github.com/javascripth/tags/JS/"/>
     
   </entry>
   

@@ -540,54 +540,59 @@
     } else {
         console.error('Waves loading failed.')
     }
-    var oHeader = document.querySelector("div.container.fade-scale");
-    console.log(oHeader)
-    // oHeader.style.width = "0%";
-    let strHtml = '';
-    let arrComtent = [{
-        text: "为学日益,为道日损",
-        author: "《道德经》"
-    }, {
-        text: "每一个不曾起舞的日子,都是对生命的辜负",
-        author: "尼采"
-    },
-    {
-        text: "君子上交不谄,下交不渎",
-        author: "《周易》"
-    }, {
-        text: "慎终如始,则无败事",
-        author: "《道德经》"
-    }]
-    // oHeader.style.width = "0%"
-    setTimeout(function () {
-        var random = Math.round(Math.random() * (arrComtent.length - 1));
-        console.log(random)
-        var arrText = arrComtent[random].text.split("");
+    // 标题打字
+    let pathname = location.pathname;
+    if (pathname == "/" || pathname.indexOf('archives') > -1 || pathname.indexOf('categories') > -1 || pathname.indexOf('tags') > -1) {
+        var oHeader = document.querySelector("div.container.fade-scale");
+        oHeader.innerHTML = "";
+        // oHeader.style.width = "0%";
+        let strHtml = '';
+        let arrComtent = [{
+            text: "为学日益,为道日损",
+            author: "《道德经》"
+        }, {
+            text: "每一个不曾起舞的日子,都是对生命的辜负",
+            author: "尼采"
+        },
+        {
+            text: "君子上交不谄,下交不渎",
+            author: "《周易》"
+        }, {
+            text: "慎终如始,则无败事",
+            author: "《道德经》"
+        }]
+        // oHeader.style.width = "0%"
+        setTimeout(function () {
+            var random = Math.round(Math.random() * (arrComtent.length - 1));
+            var arrText = arrComtent[random].text.split("");
 
-        var nowWordindex = 0;
-        var nowText = '';
-        let timerAddWord = setInterval(function () {
-            if (nowWordindex < arrText.length) {
-                nowText += arrText[nowWordindex];
-                oHeader.innerHTML = `<h2>${nowText}</h2>`;
-                nowWordindex++
-            } else {
-                clearInterval(timerAddWord)
-            }
-        }, 150);
-        // oHeader.style.width = "100%"
-        // oHeader.style.marginLeft = "15px"
+            var nowWordindex = 0;
+            var nowText = '';
+            let timerAddWord = setInterval(function () {
+                if (nowWordindex < arrText.length) {
+                    nowText += arrText[nowWordindex];
+                    oHeader.innerHTML = `<h2>${nowText}</h2>`;
+                    nowWordindex++
+                } else {
+                    clearInterval(timerAddWord)
+                }
+            }, 150);
+            // oHeader.style.width = "100%"
+            // oHeader.style.marginLeft = "15px"
 
-    }, 500);
-    // 把进入文章的链接添加到整行上 ,方便点击  (而不是只有a标签这一小块可以点击)
-    let boxPostTitles = document.querySelectorAll('article.article-card.archive-article');
-    // let boxPostTitles = document.querySelectorAll('h3.post-title[itemprop=name]');
-    console.log(boxPostTitles);
-    for (let item of boxPostTitles) {
-        item.addEventListener('click', function (e) {
-            window.location.href = item.querySelector("a.post-title-link").getAttribute('href');
-        }, false);
+        }, 100);
+        // 把进入文章的链接添加到整行上 ,方便点击  (而不是只有a标签这一小块可以点击)
+        let boxPostTitles = document.querySelectorAll('article.article-card.archive-article');
+        // let boxPostTitles = document.querySelectorAll('h3.post-title[itemprop=name]');
+        for (let item of boxPostTitles) {
+            item.addEventListener('click', function (e) {
+                window.location.href = item.querySelector("a.post-title-link").getAttribute('href');
+            }, false);
+        }
+    } else {
+
     }
+
 
 
 })(window, document);

@@ -548,18 +548,41 @@
         // oHeader.style.width = "0%";
         let strHtml = '';
         let arrComtent = [{
-            text: "为学日益,为道日损",
+            text: "为学日益，为道日损",
             author: "《道德经》"
         }, {
             text: "每一个不曾起舞的日子,都是对生命的辜负",
             author: "尼采"
         },
         {
-            text: "君子上交不谄,下交不渎",
+            text: "君子上交不谄，下交不渎",
             author: "《周易》"
         }, {
-            text: "慎终如始,则无败事",
+            text: "慎终如始，则无败事",
             author: "《道德经》"
+        }, {
+            text: "如果你想交一个朋友，那么就请他帮你一个忙",
+            author: "本杰明·富兰克林"
+        }, {
+            text: "不贪做事多，做好一件事",
+            author: "google·吴军"
+        },
+        {
+            text: "勿在浮沙筑高台",
+            author: "侯捷"
+        }, {
+            text: "衣沾不足惜，但使愿无违",
+            author: "陶渊明"
+        }, {
+            text: "高尚,是高尚者的通行证",
+            author: "王觉仁"
+        }, {
+            text: "把兴趣当工作是幸运,把工作当兴趣是本事",
+            author: '未知'
+        }, {
+            text: "生活即修行",
+        }, {
+            text: "你努力的程度,还谈不上与人比天赋",
         }]
         // oHeader.style.width = "0%"
         setTimeout(function () {

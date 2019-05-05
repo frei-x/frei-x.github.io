@@ -583,7 +583,13 @@
             text: "生活即修行",
         }, {
             text: "你努力的程度，还谈不上与人比天赋",
-        }]
+        },
+        {
+            text: "有时候你觉得特别难，是因为有更大的收获。"
+        }, {
+            yext: "自我塑造，过程很疼"
+        }
+        ]
         // oHeader.style.width = "0%"
         setTimeout(function () {
             var random = Math.round(Math.random() * (arrComtent.length - 1));

